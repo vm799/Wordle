@@ -62,6 +62,8 @@ const handleClick = (letter) =>{
 	console.log ("logged", letter)
 	if(letter === "«"){
 		console.log("letter deleted")
+		deleteLetter()
+		return
 	}
 	if(letter === "ENTER"){
 		return
@@ -92,7 +94,7 @@ const addLetter = (letter)=>{
 const deleteLetter = () => {
 	if (currentTile > 0){
 	currentTile--
-	document.getElementById("guessRow-" + currentRow + "-tile-" + currentTile)
+	const tile = document.getElementById("guessRow-" + currentRow + "-tile-" + currentTile)
 	tile.textContent = ""
 	guessRows[currentRow][currentTile] = ""
 	tile.setAttribute("data", "")
