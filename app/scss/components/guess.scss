@@ -65,21 +65,17 @@
     }
 }
 
+.message-container {
+    height: rem(30);
+padding-bottom: 2em;
+    p {
+        background-color: #818384;
+        border-radius: 10px;
+        padding: 10px;
+        margin:0;
+       
+    }
+}
 
 
-// display:grid;
-// border: rem(2) solid rgba(128, 128, 128, 0.735);
-// grid-template-columns: repeat(5, 1fr);
-// gap: rem(3);
-// height:90vh;
-
-
-
-//      &__tile{
-// border: rem(2) solid rgba(128, 128, 128, 0.735);
-// width:rem(52);
-// height:rem(52);
-// display:flex;
-// place-items: center;
-//      }
 

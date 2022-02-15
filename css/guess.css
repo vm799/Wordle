@@ -54,4 +54,15 @@
 }
 .key-container button:nth-child(28) {
   width: 3.75rem;
+}
+
+.message-container {
+  height: 1.875rem;
+  padding-bottom: 2em;
+}
+.message-container p {
+  background-color: #818384;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0;
 }/*# sourceMappingURL=guess.css.map */
