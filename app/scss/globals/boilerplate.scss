@@ -1,6 +1,8 @@
+@use '../util' as *;
+
 html {
 	font-size: 100%;
-	box-sizing: border-box;
+	font-family: var(--font-body);
 }
 
 *,
@@ -11,5 +13,15 @@ html {
 
 body {
 	margin: 0;
-	padding: 0;
+	padding: 2rem;
+	background-color: #121212;
+	color:white;
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	
 }
+
