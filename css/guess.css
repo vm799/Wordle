@@ -31,6 +31,21 @@
   margin: 2px;
 }
 
+.flip {
+  animation: 0.5s linear flipping;
+}
+
+@keyframes flipping {
+  0% {
+    transfrom: rotateX(0deg);
+  }
+  50% {
+    transfrom: rotateX(90deg);
+  }
+  100% {
+    transfrom: rotateX(0deg);
+  }
+}
 .key-container {
   width: 31.875rem;
   display: flex;
@@ -65,4 +80,19 @@
   border-radius: 10px;
   padding: 10px;
   margin: 0;
+}
+
+.grey-overlay {
+  background-color: #3a3a3c !important;
+  border: none;
+}
+
+.yellow-overlay {
+  background-color: #b59f3a !important;
+  border: none;
+}
+
+.green-overlay {
+  background-color: #538d4e !important;
+  border: none;
 }/*# sourceMappingURL=guess.css.map */

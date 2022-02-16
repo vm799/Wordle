@@ -69,6 +69,7 @@ const handleClick = (letter) =>{
 	}
 	if(letter === "ENTER"){
 		checkRow()
+		
 		return
 	}
 	addLetter(letter)
@@ -107,6 +108,7 @@ const deleteLetter = () => {
 const checkRow = () => {
 	const guess =	guessRows[currentRow].join('')
 if (currentTile > 4){
+	flipTile()
 if(wordle == guess){
 	showMessage("magnificent")
 	isGameOver = true
@@ -131,3 +133,24 @@ const showMessage = (message) => {
 	messageDisplay.append(messageEl)
 	setTimeout(()=> messageDisplay.removeChild(messageEl), 2000)
 }
+
+const flipTile = ()=> {
+	const rowTiles = document.querySelector('#guessRow-' + currentRow).childNodes
+	rowTiles.forEach((tile, index) => {
+	const dataLetter = tile.getAttribute('data')
+ 
+	setTimeout(()=>{
+		tile.classList.add("flip")
+		if(dataLetter == wordle[index]){
+			tile.classList.add("green-overlay")
+		} else if (wordle.includes("dataLetter")) {
+	   tile.classList.add("yellow-overlay")
+		} else {
+			tile.classList.add("grey-overlay")
+		}
+	}, 500 * index)
+	
+	
+})
+}
+
