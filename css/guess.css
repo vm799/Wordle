@@ -50,14 +50,13 @@
   width: 31.875rem;
   display: flex;
   flex-wrap: wrap;
-  border: 5px solid hotpink;
 }
 .key-container button {
   width: 1.875rem;
   height: 3.125rem;
   border-radius: 4px;
   border: none;
-  background-color: rgba(116, 118, 118, 0.509);
+  background-color: rgba(184, 184, 184, 0.317);
   margin: 4px;
   color: white;
   text-align: center;
@@ -84,7 +83,7 @@
 }
 
 .grey-overlay {
-  background-color: #3a3a3c !important;
+  background-color: #1a1a1a !important;
   border: none;
 }
 

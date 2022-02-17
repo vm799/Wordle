@@ -58,14 +58,14 @@
     width:rem(510);
     display:flex;
     flex-wrap: wrap;
-    border: 5px solid hotpink;
+   
 
     button{
         width: rem(30);
         height:rem(50);
         border-radius: 4px;
         border:none;
-        background-color: hsla(180, 1%, 46%, 0.509);
+        background-color: hsla(0, 0%, 72%, 0.317);
         margin:4px;
         color:white;
         text-align: center;
@@ -96,7 +96,7 @@ padding-bottom: 2em;
 }
 
 .grey-overlay{
-    background-color: #3a3a3c !important;
+    background-color: #1a1a1a !important;
     border:none;
 }
 
