@@ -132,7 +132,8 @@ if (currentTile > 4){
 			} else {
 				if (currentRow >= 5){
 					isGameOver = true
-					showMessage('Game Over')
+					showMessage('Game Over: The word was ' + "" + wordle)
+					
 					return
 				}
 			if (currentRow < 5){
