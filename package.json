@@ -1,30 +1,42 @@
 {
-  "name": "gulp-sass-boilerplate",
+  "name": "sass-boilerplate",
+  "main": "/app.js",
+  "scripts": {
+    "start:backend": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "version": "1.0.0",
-  "description": "Minimal Gulp workflow to compile Sass",
+  "description": "Wordle clone with compiler Sass",
   "keywords": [],
-  "author": "Jessica Chan (Coder Coder)",
+  "author": "Vaishali with inspiration and help from Jessica Chan (Coder Coder) and Ania Kubrow",
   "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.14.8",
     "@babel/preset-env": "^7.14.8",
     "autoprefixer": "^10.2.6",
+    "axios": "^0.26.0",
     "browser-sync": "^2.27.4",
+    "cors": "^2.8.5",
     "cssnano": "^5.0.6",
-    "gulp-babel": "^8.0.0",
-    "gulp-postcss": "^9.0.0",
-    "gulp-sass": "^5.0.0",
-    "gulp-terser": "^2.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
     "postcss": "^8.3.5",
-    "sass": "^1.35.2"
+    "random-words": "^1.1.2",
+    "sass": "^1.35.2",
+    "type": "module"
   },
   "browserslist": [
     "last 1 version",
     "IE 11",
     "> 1%"
   ],
-  "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-uglify": "^3.0.2"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vm799/Wordle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vm799/Wordle/issues"
+  },
+  "homepage": "https://github.com/vm799/Wordle#readme"
 }

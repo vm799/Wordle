@@ -44,13 +44,13 @@
 }
 @keyframes flipping {
     0%{
-        transfrom: rotateX(0deg);
+        transform: rotateX(0deg);
     }
     50%{
-        transfrom: rotateX(90deg);
+        transform: rotateX(90deg);
     }
     100%{
-        transfrom: rotateX(0deg);
+        transform: rotateX(0deg);
     }
 }
 
@@ -58,6 +58,7 @@
     width:rem(510);
     display:flex;
     flex-wrap: wrap;
+    border: 5px solid hotpink;
 
     button{
         width: rem(30);
