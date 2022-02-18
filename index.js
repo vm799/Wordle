@@ -132,7 +132,7 @@ if (currentTile > 4){
 			} else {
 				if (currentRow >= 5){
 					isGameOver = true
-					showMessage('Game Over: The word was ' + "" + wordle)
+					showMessage('Game Over: ' + wordle)
 					
 					return
 				}
@@ -180,7 +180,7 @@ const showMessage = (message) => {
 	const messageEl = document.createElement("p")
 	messageEl.textContent = message
 	messageDisplay.append(messageEl)
-	setTimeout(()=> messageDisplay.removeChild(messageEl), 2000)
+	setTimeout(()=> messageDisplay.removeChild(messageEl), 3000)
 }
 
 const addColorToKey = (keyLetter, color)=>{
