@@ -1,4 +1,8 @@
 # Wordle Clone
+CREDITS: 
+Ania Kubow https://www.youtube.com/watch?v=mpby4HiElek
+Jessica Chan https://www.youtube.com/watch?v=PNGgQzw6PQg
+
 PROBLEM: As the craze took off, I wanted to play WORDLE more than once a day and decided to code it for myself and my children.
 
 I watched a few videos on different ways to approach the problem and started with CODER CODER (Jessica Chan) who helped me learn about Yeoman and Sass compiler boilerplate. Ania Kubrow taught me how to problem solve with JS.
