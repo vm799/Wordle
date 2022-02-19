@@ -2,6 +2,7 @@
 CREDITS: 
 Ania Kubow https://www.youtube.com/watch?v=mpby4HiElek
 Jessica Chan https://www.youtube.com/watch?v=PNGgQzw6PQg
+#RAPID API: Used Random words and Word dictionary API from RAPID API hub
 
 PROBLEM: As the craze took off, I wanted to play WORDLE more than once a day and decided to code it for myself and my children.
 
@@ -20,7 +21,7 @@ TEMPLATES/LANGUAGES/FRAMEWORKS USED:
 
 #DOTENV
 
-#RAPID API
+
 
 CHALLENGES:
 I have been used to creating SASS folders froms cratch and was a bit thrown by the template at first but found it very useful.
