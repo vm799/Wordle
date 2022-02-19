@@ -128,7 +128,7 @@ a:active {
   color: white;
   text-align: center;
 }
-.key-container button:nth-child(15) {
+.key-container button:nth-child(18) {
   width: 2.8125rem;
 }
 .key-container button:nth-child(28) {
@@ -140,7 +140,7 @@ a:active {
   padding: 5px;
   z-index: 10;
   position: absolute;
-  top: 30%;
+  top: 20%;
 }
 .message-container p {
   background-color: #818384;
