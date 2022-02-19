@@ -6,7 +6,7 @@ const messageDisplay = document.querySelector('.message-container')
 let wordle
 
 const getWordle = () => {
-    fetch('http://localhost:8000/word')
+    fetch('http://localhost:8001/word')
         .then(response => response.json())
         .then(json => {
             wordle = json.toUpperCase()
